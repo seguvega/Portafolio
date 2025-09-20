@@ -19,7 +19,7 @@ const MainRouter = () =>
                 <Route path="/projets" element ={<Projects />}/>
                 <Route path="/services" element ={<Services />}/>
                 <Route path="/contact" element ={<Contact />}/>
-                <Route path="/*" element ={<NotFound />}/>
+                <Route path="*" element ={<NotFound />}/>
             </Routes>
         </div>
         </>
