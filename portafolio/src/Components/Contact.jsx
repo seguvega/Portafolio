@@ -1,17 +1,20 @@
+import { useNavigate } from 'react-router-dom'
+
 let Contact = () =>
 {
+    let Navigate = useNavigate();//Redirect
     let handleSubmit = () =>
     {
-
+        Navigate("/");
     }
     
     return(
         <>
-         <h2>Contact Me</h2>
+         <h1>Contact Me</h1>
          <p>Sebastian Velasco Telf 437 607 1036</p>
          <p>Email seguvega@hotmail.com </p>
          <p>Toronto Scarborough</p>
-        <form onSubmit={handleSubmit} >
+        <form onSubmit={handleSubmit} className='FormContact'>
 
             <label for="firstName">First Name</label>
             <input type="text" id="firstName" name="firstName" required />

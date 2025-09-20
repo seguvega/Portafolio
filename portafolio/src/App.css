@@ -1,25 +1,23 @@
 #root {
-  max-width: 1280px;
+  max-width: auto;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
 .logo {
-  /* height: 6em; */
-  /* padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
 
-  width: 40px;
+  width: 100px;
   height: auto;
   margin-right: 1rem;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #47008997);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #ff0000aa);
 }
 
 @keyframes logo-spin {
@@ -35,6 +33,12 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+p {
+  font-size: 20px;
+  margin: 10px;
+  line-height: 1.6;
 }
 
 .card {
@@ -53,8 +57,8 @@
 }
 
 .row img {
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   margin-right: 20px;
   object-fit: cover;
 }
@@ -67,28 +71,74 @@
 .text-content h3 {
   font-size: 20px;
   margin: 0 0 8px 0;
+  text-align: justify;
 }
 
 .text-content p {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
 }
 
+.AboutMeImg{
+  width: 500px;
+  height: 600px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
 .navbar {
+  position: fixed;     /* keeps it on top */
+  top: 0;
+  left: 0;
+  width: 100%;  
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a; /* change to your preferred color */
-  padding: 0.5rem 1rem;
+  padding: 10px 0px;
+   background-color: #000; 
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   margin: 0 0.75rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-  color: #ffcc00; /* highlight color */
+  color: #a22104; /* highlight color */
+}
+
+.FormContact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #1e1e1e;  /* dark mode vibe */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.FormContact label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.FormContact button {
+  background: #2f0b03;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.FormContact button:hover {
+  background: #a22104;
 }

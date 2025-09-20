@@ -13,7 +13,7 @@ let Services = () =>
 {
     return(
         <>
-        <h2>Services</h2>
+        <h1>Services</h1>
         <ListComponent List={ServicesL} />
         </>
     );
