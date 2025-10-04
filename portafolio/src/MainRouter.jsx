@@ -11,7 +11,7 @@ const MainRouter = () =>
 {
     return(
         <>
-        <div classname= "body">
+        <div>
             <Layout />
             <Routes>
                 <Route path="/" element ={<Home />}/>

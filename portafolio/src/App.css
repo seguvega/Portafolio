@@ -6,8 +6,13 @@
 }
 
 body {
-  margin: 0;
-  padding-top: 60px;  /* same height as navbar */
+  padding-top: 80px; /* match your navbar height */
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px; /* if navbar grows taller on mobile */
+  }
 }
 
 .logo {
@@ -176,14 +181,4 @@ p {
 
 .FormContact button:hover {
   background: #a22104;
-}
-
-.body {
-  padding-top: 80px; 
-}
-
-@media (max-width: 768px) {
-  .body {
-    padding-top: 120px; /* if navbar is taller on tablet */
-  }
 }
