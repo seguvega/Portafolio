@@ -92,23 +92,53 @@ p {
 }
 
 .navbar {
-  position: fixed;     /* keeps it on top */
+  position: fixed;/* keeps it on top */
   top: 0;
   left: 0;
-  width: 100%;  
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
-   background-color: #000; 
+  padding: 20px;
+  background-color: #000;
+  flex-wrap: wrap;/* allow items to move on smaller screens */
+  box-sizing: border-box;
 }
 
+/* Navbar items */
 .navbar a {
   color: white;
   text-decoration: none;
-  margin: 0 0.75rem;
-  font-size: 1.5rem;
+  padding: 8px 12px;
+  font-size: 20px;
+  white-space: nowrap;   /* avoid breaking words awkwardly */
   transition: color 0.3s ease;
+}
+
+/* Tablet screens (<= 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px;
+    font-size: 16px;
+    flex-direction: column;  /* stack items vertically */
+    align-items: flex-start; /* align left */
+  }
+  .navbar a {
+    display: block;
+    width: 100%;             /* make links full-width */
+  }
+}
+
+/* Mobile screens (<= 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .navbar a {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 
 .navbar a:hover {
