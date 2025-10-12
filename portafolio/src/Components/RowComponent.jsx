@@ -5,7 +5,7 @@ const RowComponent = ({item}) =>
       <img src={item.imagePath} alt="Row content" />
       <div className="text-content">
         <h3>{item.title}</h3>
-        <p>{item.text}</p>
+        <p dangerouslySetInnerHTML={{ __html: item.text }}></p>
       </div>
     </div>
     );
