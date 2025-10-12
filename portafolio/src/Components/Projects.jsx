@@ -5,8 +5,8 @@ import ListComponent from './ListComponent';
 
 const PList =
 [
-    {imagePath: photo1, title: "Escape And Build", text: 'My game made in UnrealEngine 5 its a multiplayer cross-plataform tower defeanse.'},
-    {imagePath: photo2, title: "Server C++", text: 'My own Server build in Sockets using C++ it handles the lobbies'},
+    {imagePath: photo1, title: "Escape And Build", text: 'My game made in UnrealEngine 5 its a multiplayer cross-plataform tower defeanse.https://store.steampowered.com/app/2976230/Escape_And_Build https://play.google.com/store/apps/details?id=com.SeGuVeGa.EscapeAndBuild&pli=1'},
+    {imagePath: photo2, title: "Server C++", text: 'My own Server build in Sockets using C++ it handles the lobbies '},
     {imagePath: photo3, title: "Invasion", text: 'My co-op project made in Unity. Role: programmer'}
 ];
 
