@@ -1,5 +1,5 @@
 import Me from '../assets/ME_B.png';
-import Resume from '../assets/Resume.pdf' 
+import Resume from '../assets/Resume.pdf'
 
 let AboutMe = () => 
 {
