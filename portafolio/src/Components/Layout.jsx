@@ -1,17 +1,22 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import imageLogo from '../assets/LogoGOD.png'
 
 const Layout = () => 
 {
+    const location = useLocation();
+    const signoutClick = () => {
+        clearJWT();
+    }
+
     return(
         <>
         <nav className="navbar">
               <img src={imageLogo} alt="Logo" className='logo'/>
-            <Link to="/"> Home </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/projets"> Projects </Link>
-            <Link to="/services"> Services </Link>
-            <Link to="/contact"> Contact </Link>
+                <Link to="/"><i className="fas fa-home"></i> Home</Link>
+                <Link to="/about"><i className="fa-solid fa-address-card"></i> About</Link>
+                <Link to="/projects/list"><i className="fas fa-project-diagram"></i> Projects</Link>
+                <Link to="/services/list"><i className="fa-regular fa-rectangle-list"></i>Services</Link>
+                <Link to="/contact"><i className="fa-regular fa-rectangle-ListComponent"></i>Contact</Link>
         </nav>
         </>
     );
