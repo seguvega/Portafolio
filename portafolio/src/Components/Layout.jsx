@@ -4,9 +4,9 @@ import imageLogo from '../assets/LogoGOD.png'
 const Layout = () => 
 {
     const location = useLocation();
-    const signoutClick = () => {
-        clearJWT();
-    }
+    //const signoutClick = () => {
+     //    clearJWT();
+    ///}
 
     return(
         <>
@@ -16,7 +16,7 @@ const Layout = () =>
                 <Link to="/about"><i className="fa-solid fa-address-card"></i> About</Link>
                 <Link to="/projects/list"><i className="fas fa-project-diagram"></i> Projects</Link>
                 <Link to="/services/list"><i className="fa-regular fa-rectangle-list"></i>Services</Link>
-                <Link to="/contact"><i className="fa-regular fa-rectangle-ListComponent"></i>Contact</Link>
+                <Link to="/contact/list"><i className="fa-regular fa-rectangle-ListComponent"></i>Contact</Link>
         </nav>
         </>
     );

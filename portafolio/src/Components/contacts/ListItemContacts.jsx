@@ -1,10 +1,10 @@
-import { remove } from "../../datasource/api-Services";
+import { remove } from "../../datasource/api-contacts";
 import { Link } from "react-router-dom";
     
-const ListItemService = ({ service, onRemoved }) => {
+const ListItemContacts = ({ contact, onRemoved }) => {
 
     const handleRemove = (id) => {
-        if (window.confirm('Are you sure you want to delete this Service?')) {
+        if (window.confirm('Are you sure you want to delete this contact?')) {
             remove(id)
                 .then(data => {
                     if (data) {
@@ -20,24 +20,25 @@ const ListItemService = ({ service, onRemoved }) => {
 
     return (
         <tr >
-            <td className="text-center"> {service.title || ''} </td>
-            <td><img className="img-fluid" width={250} height="auto" src={service.img}/></td>
-            <td className="text-center"> {service.description || ''} </td>
+            <td className="text-center"> {contact.firstname || ''}  {contact.lastname || ''} </td>
+            <td className="text-center"> {contact.message || ''} </td>
+            {/*
             <td className="text-center">
-                <Link className="btn bg-primary btn-primary btn-sm" to={'/services/edit/' + service._id}>
+                <Link className="btn bg-primary btn-primary btn-sm" to={'/contacts/edit/' + contact._id}>
                     <i className="fas fa-pencil-alt"></i>
                 </Link>
             </td>
             <td className="text-center">
                 <button
                     className="btn bg-danger btn-danger btn-sm"
-                    onClick={() => handleRemove(service._id)}>
+                    onClick={() => handleRemove(contact._id)}>
                     <i className="fas fa-trash-alt"></i>
                 </button>
             </td>
+            */}
         </tr>
     );
 
 }
 
-export default ListItemService;
+export default ListItemContacts;

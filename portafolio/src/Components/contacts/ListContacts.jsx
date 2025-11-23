@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { list } from '../../datasource/api-Services';
-import ListItemservice from './ListItemService';
+import { list } from '../../datasource/api-contacts';
+import ListItemcontact from './ListItemContacts';
 import { Link } from 'react-router-dom';
 
-const ListContacts = () => {
-    const [ServiceList, setServiceList] = useState([]);
+const Listcontact = () => {
+    const [contactList, setContactList] = useState([]);
     let [isLoading, setIsLoading] = useState(true);
 
-    const loadservices = () => {
+    const loadcontacts = () => {
         list().then((data) => {
             if (data) {
-                setServiceList(data || []);
-
+                setContactList(data || []);
                 setIsLoading(false);
             }
         }).catch(err => {
@@ -22,20 +21,20 @@ const ListContacts = () => {
 
     // When the component loads.
     useEffect(() => {
-        loadservices();
+        loadcontacts();
     }, []);
 
     // When a item is removed.
     const handleRemove = () => {
-        loadservices();
+        loadcontacts();
     }
 
     return (
         <>
             <div>
-                <Link to="/services/add" className="btn btn-primary align-self-end" role="button">
+                <Link to="/contacts/add" className="btn btn-primary align-self-end" role="button">
                     <i className="fas fa-plus-circle"></i>
-                    Add a new service
+                    Add a new contact
                 </Link>
             </div>
             <div className="table-responsive" >
@@ -45,17 +44,16 @@ const ListContacts = () => {
                         <thead>
                             {/* -- Header Row-- */}
                             <tr>
-                                <th className="text-center">Title</th>
-                                <th className="text-center">Img</th>
-                                <th className="text-center">Description</th>
+                                <th className="text-center">FullName</th>
+                                <th className="text-center">Message</th>
                             </tr>
                         </thead>
                         <tbody>
                             {/* -- Repeatable Template Row -- */}
-                            {ServiceList.map( service =>
-                                <ListItemservice
-                                    key={service._id}
-                                    service={service}
+                            {contactList.map( contact =>
+                                <ListItemcontact
+                                    key={contact._id}
+                                    contact={contact}
                                     onRemoved={handleRemove}
                                 />
                             )}
@@ -66,4 +64,4 @@ const ListContacts = () => {
     )
 }
 
-export default ListContacts;
+export default Listcontact;
