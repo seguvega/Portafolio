@@ -32,7 +32,7 @@ const ProjectForm = ({ project = {}, handleChange, handleSubmit }) => {
                 />
             </div>
             <div className="form-group">
-               <label htmlFor="tagTextArea">description</label>
+               <label htmlFor="tagTextArea">Description</label>
                 <textarea
                     id="tagTextArea"
                     name="description"

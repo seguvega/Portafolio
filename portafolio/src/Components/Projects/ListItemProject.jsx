@@ -7,7 +7,7 @@ const ListItemProject = ({ project, onRemoved }) => {
         if (window.confirm('Are you sure you want to delete this Project?')) {
             remove(id)
                 .then(data => {
-                    if (data && data.success) {
+                    if (data) {//&& data.success) dont work 
                         if (typeof onRemoved === 'function') onRemoved(id);
                     }
                 })
@@ -21,7 +21,7 @@ const ListItemProject = ({ project, onRemoved }) => {
     return (
         <tr >
             <td className="text-center"> {project.title || ''} </td>
-            <td><img class="img-fluid" src={project.img}/> </td>
+            <td><img class="img-fluid" src={project.img}/></td>
             <td className="text-center"> {project.description || ''} </td>
             <td className="text-center">
                 <Link className="btn bg-primary btn-primary btn-sm" to={'/projects/edit/' + project._id}>

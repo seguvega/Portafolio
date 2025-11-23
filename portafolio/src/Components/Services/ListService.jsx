@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { list } from '../../datasource/api-Projects';
-import ListItemProject from './ListItemProject';
+import { list } from '../../datasource/api-Services';
+import ListItemservice from './ListItemService';
 import { Link } from 'react-router-dom';
 
 const ListService = () => {
-    const [projectList, setprojectList] = useState([]);
+    const [ServiceList, setServiceList] = useState([]);
     let [isLoading, setIsLoading] = useState(true);
 
-    const loadProjects = () => {
+    const loadservices = () => {
         list().then((data) => {
             if (data) {
-                setprojectList(data || []);
+                setServiceList(data || []);
 
                 setIsLoading(false);
             }
@@ -22,20 +22,20 @@ const ListService = () => {
 
     // When the component loads.
     useEffect(() => {
-        loadProjects();
+        loadservices();
     }, []);
 
     // When a item is removed.
     const handleRemove = () => {
-        loadProjects();
+        loadservices();
     }
 
     return (
         <>
             <div>
-                <Link to="/projects/add" className="btn btn-primary align-self-end" role="button">
+                <Link to="/services/add" className="btn btn-primary align-self-end" role="button">
                     <i className="fas fa-plus-circle"></i>
-                    Add a new project
+                    Add a new service
                 </Link>
             </div>
             <div className="table-responsive" >
@@ -52,10 +52,10 @@ const ListService = () => {
                         </thead>
                         <tbody>
                             {/* -- Repeatable Template Row -- */}
-                            {projectList.map( project =>
-                                <ListItemProject
-                                    key={project._id}
-                                    project={project}
+                            {ServiceList.map( service =>
+                                <ListItemservice
+                                    key={service._id}
+                                    service={service}
                                     onRemoved={handleRemove}
                                 />
                             )}

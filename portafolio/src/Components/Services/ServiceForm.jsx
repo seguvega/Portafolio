@@ -1,20 +1,20 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-const ServiceForm = ({ project = {}, handleChange, handleSubmit }) => {
+const ServiceForm = ({ service = {}, handleChange, handleSubmit }) => {
     const navigate = useNavigate();
 
     return (
         <form onSubmit={handleSubmit} className="form card p-1">
-            <input type="hidden" name="id" value={project.id || ""} />
+            <input type="hidden" name="id" value={service.id || ""} />
             <div className="form-group">
                 <label htmlFor="itemTextField">Title</label>
                 <input
                     id="itemTextField"
                     name="title"
                     className="form-control"
-                    placeholder="Enter the Project Name or Title"
-                    value={project.title || ""}
+                    placeholder="Enter the service Name or Title"
+                    value={service.title || ""}
                     onChange={handleChange}
                     required
                 />
@@ -27,18 +27,18 @@ const ServiceForm = ({ project = {}, handleChange, handleSubmit }) => {
                     name="img"
                     className="form-control"
                     placeholder="Imagen URL"
-                    value={project.img || ""}
+                    value={service.img || ""}
                     onChange={handleChange}
                 />
             </div>
             <div className="form-group">
-               <label htmlFor="tagTextArea">description</label>
+               <label htmlFor="tagTextArea">Description</label>
                 <textarea
                     id="tagTextArea"
                     name="description"
                     className="form-control"
-                    placeholder="Enter the description of the project"
-                    value={project.description || ""}
+                    placeholder="Enter the description of the service"
+                    value={service.description || ""}
                     onChange={handleChange}
                     required
                 />
