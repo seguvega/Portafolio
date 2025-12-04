@@ -1,5 +1,7 @@
 //import { getToken } from "../components/auth/auth-helper"
 let apiURL = import.meta.env.VITE_APP_APIURL
+import { getToken } from "../components/auth/auth-helper"
+
 
 const list = async () => {
     try {
@@ -22,7 +24,8 @@ const remove = async (id) => {
             method: 'DELETE',
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer '+ getToken()
             }
         })
         return await response.json()
@@ -37,7 +40,8 @@ const create = async (product) => {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer '+ getToken()
             },
             body: JSON.stringify(product)
         })
@@ -69,6 +73,7 @@ const update = async (product, id) => {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
+                'Authorization': 'Bearer '+ getToken()
             },
             body: JSON.stringify(product)
         })
