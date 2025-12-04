@@ -12,6 +12,8 @@ import Contact from "./Components/contacts/ListContacts";
 import AddContacts from "./Components/contacts/AddContacts";
 import EditContacts from "./Components/contacts/EditContacts";
 import NotFound from "./Components/NotFound";
+import Signin from "./Components/auth/Signin";
+import Signup from "./Components/auth/Signup";
 
 
 const MainRouter = () => 
@@ -34,6 +36,8 @@ const MainRouter = () =>
                 <Route path="/contact/list" element ={<Contact />}/>
                 <Route path="/contacts/add" element ={<AddContacts />}/>
                 <Route path="/contacts/edit/:id" element ={<EditContacts />}/>
+                <Route path="/users/signin" element={<Signin />} />
+                <Route path="/users/signup" element={<Signup />} />
                 <Route path="*" element ={<NotFound />}/>
             </Routes>
         </div>
