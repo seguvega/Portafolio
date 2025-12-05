@@ -1,0 +1,1323 @@
+{
+    "title": "Porfolio",
+    "selectorAttribute": "data-test",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 939,
+            "height": 738,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://portafolio-6dp0.onrender.com/users/signin",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://portafolio-6dp0.onrender.com/users/signin",
+                    "title": "Portfolio"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div > div a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/form/a"
+                ],
+                [
+                    "pierce/#root > div > div a"
+                ],
+                [
+                    "aria/ Sign-up"
+                ],
+                [
+                    "text/Sign-up"
+                ]
+            ],
+            "offsetY": 17.5,
+            "offsetX": 167.60000610351562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#firstNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"firstNameTextField\"]"
+                ],
+                [
+                    "pierce/#firstNameTextField"
+                ],
+                [
+                    "aria/First Name"
+                ]
+            ],
+            "offsetY": 34.899993896484375,
+            "offsetX": 122.8125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#firstNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"firstNameTextField\"]"
+                ],
+                [
+                    "pierce/#firstNameTextField"
+                ],
+                [
+                    "aria/First Name"
+                ]
+            ],
+            "offsetY": 21.899993896484375,
+            "offsetX": 49.8125
+        },
+        {
+            "type": "change",
+            "value": "Z",
+            "selectors": [
+                [
+                    "#firstNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"firstNameTextField\"]"
+                ],
+                [
+                    "pierce/#firstNameTextField"
+                ],
+                [
+                    "aria/First Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "z",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Zuck",
+            "selectors": [
+                [
+                    "#firstNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"firstNameTextField\"]"
+                ],
+                [
+                    "pierce/#firstNameTextField"
+                ],
+                [
+                    "aria/First Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "D",
+            "selectors": [
+                [
+                    "#lastNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"lastNameTextField\"]"
+                ],
+                [
+                    "pierce/#lastNameTextField"
+                ],
+                [
+                    "aria/Last Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "d",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Dontknow",
+            "selectors": [
+                [
+                    "#lastNameTextField"
+                ],
+                [
+                    "xpath///*[@id=\"lastNameTextField\"]"
+                ],
+                [
+                    "pierce/#lastNameTextField"
+                ],
+                [
+                    "aria/Last Name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "q"
+        },
+        {
+            "type": "keyUp",
+            "key": "q",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "Alt",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuckq",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "6"
+        },
+        {
+            "type": "keyUp",
+            "key": "6",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "4"
+        },
+        {
+            "type": "keyUp",
+            "key": "@",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuckq@",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "4",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "ArrowLeft"
+        },
+        {
+            "type": "keyUp",
+            "key": "ArrowLeft",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "ArrowLeft"
+        },
+        {
+            "type": "keyUp",
+            "key": "ArrowLeft",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "ArrowRight"
+        },
+        {
+            "type": "keyUp",
+            "key": "ArrowRight",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck@",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "ArrowRight"
+        },
+        {
+            "type": "keyUp",
+            "key": "ArrowRight",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "ArrowRight"
+        },
+        {
+            "type": "keyUp",
+            "key": "ArrowRight",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck@hotmail.com",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "123456789",
+            "selectors": [
+                [
+                    "#passwordTextField"
+                ],
+                [
+                    "xpath///*[@id=\"passwordTextField\"]"
+                ],
+                [
+                    "pierce/#passwordTextField"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "123456789",
+            "selectors": [
+                [
+                    "#confirmPasswordTextField"
+                ],
+                [
+                    "xpath///*[@id=\"confirmPasswordTextField\"]"
+                ],
+                [
+                    "pierce/#confirmPasswordTextField"
+                ],
+                [
+                    "aria/Confirm Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/form/button"
+                ],
+                [
+                    "pierce/button"
+                ],
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 19.70001220703125,
+            "offsetX": 314.8125
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(6)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/nav/a[6]"
+                ],
+                [
+                    "pierce/a:nth-of-type(6)"
+                ],
+                [
+                    "aria/ Signin"
+                ],
+                [
+                    "text/Signin"
+                ]
+            ],
+            "offsetY": 27.674999237060547,
+            "offsetX": 31.82501220703125
+        },
+        {
+            "type": "change",
+            "value": "seguvega@hotmail.com",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "123456789",
+            "selectors": [
+                [
+                    "#passowordTextField"
+                ],
+                [
+                    "xpath///*[@id=\"passowordTextField\"]"
+                ],
+                [
+                    "pierce/#passowordTextField"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "offsetY": 28.899993896484375,
+            "offsetX": 171.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "seguvega@hotm",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "offsetY": 28.899993896484375,
+            "offsetX": 193.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "zuck",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyUp",
+            "key": "Alt",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Alt"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "6"
+        },
+        {
+            "type": "keyUp",
+            "key": "6",
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "4"
+        },
+        {
+            "type": "keyUp",
+            "key": "@",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck@",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "4",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck@hotmail.con",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/form/button[1]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 35.699981689453125,
+            "offsetX": 221.60000610351562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/zuck@hotmail.con"
+                ]
+            ],
+            "offsetY": 33.899993896484375,
+            "offsetX": 145.60000610351562
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Control"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "a"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "zuck@hotmail.com",
+            "selectors": [
+                [
+                    "#emailTextField"
+                ],
+                [
+                    "xpath///*[@id=\"emailTextField\"]"
+                ],
+                [
+                    "pierce/#emailTextField"
+                ],
+                [
+                    "aria/Email"
+                ],
+                [
+                    "text/seguvega@hotmail.com"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "Control",
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#passowordTextField"
+                ],
+                [
+                    "xpath///*[@id=\"passowordTextField\"]"
+                ],
+                [
+                    "pierce/#passowordTextField"
+                ],
+                [
+                    "aria/Password"
+                ],
+                [
+                    "text/123456789"
+                ]
+            ],
+            "offsetY": 19.29998779296875,
+            "offsetX": 108.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "123456789",
+            "selectors": [
+                [
+                    "#passowordTextField"
+                ],
+                [
+                    "xpath///*[@id=\"passowordTextField\"]"
+                ],
+                [
+                    "pierce/#passowordTextField"
+                ],
+                [
+                    "aria/Password"
+                ],
+                [
+                    "text/123456789"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div/div/form/button[1]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 21.699981689453125,
+            "offsetX": 55.600006103515625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "a:nth-of-type(3)"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/nav/a[3]"
+                ],
+                [
+                    "pierce/a:nth-of-type(3)"
+                ],
+                [
+                    "aria/ Projects"
+                ],
+                [
+                    "text/Projects"
+                ]
+            ],
+            "offsetY": 29.674999237060547,
+            "offsetX": 75.19998168945312
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/a"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > a"
+                ],
+                [
+                    "aria/Add a new project"
+                ],
+                [
+                    "text/Add a new project"
+                ]
+            ],
+            "offsetY": 34,
+            "offsetX": 118.79998779296875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#itemTextField"
+                ],
+                [
+                    "xpath///*[@id=\"itemTextField\"]"
+                ],
+                [
+                    "pierce/#itemTextField"
+                ],
+                [
+                    "aria/Title"
+                ]
+            ],
+            "offsetY": 19.899993896484375,
+            "offsetX": 179.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "T",
+            "selectors": [
+                [
+                    "#itemTextField"
+                ],
+                [
+                    "xpath///*[@id=\"itemTextField\"]"
+                ],
+                [
+                    "pierce/#itemTextField"
+                ],
+                [
+                    "aria/Title"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "t",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test",
+            "selectors": [
+                [
+                    "#itemTextField"
+                ],
+                [
+                    "xpath///*[@id=\"itemTextField\"]"
+                ],
+                [
+                    "pierce/#itemTextField"
+                ],
+                [
+                    "aria/Title"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#statusTextField"
+                ],
+                [
+                    "xpath///*[@id=\"statusTextField\"]"
+                ],
+                [
+                    "pierce/#statusTextField"
+                ],
+                [
+                    "aria/Imagen"
+                ]
+            ],
+            "offsetY": 22.29998779296875,
+            "offsetX": 91.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "T",
+            "selectors": [
+                [
+                    "#statusTextField"
+                ],
+                [
+                    "xpath///*[@id=\"statusTextField\"]"
+                ],
+                [
+                    "pierce/#statusTextField"
+                ],
+                [
+                    "aria/Imagen"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "t",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test",
+            "selectors": [
+                [
+                    "#statusTextField"
+                ],
+                [
+                    "xpath///*[@id=\"statusTextField\"]"
+                ],
+                [
+                    "pierce/#statusTextField"
+                ],
+                [
+                    "aria/Imagen"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#tagTextArea"
+                ],
+                [
+                    "xpath///*[@id=\"tagTextArea\"]"
+                ],
+                [
+                    "pierce/#tagTextArea"
+                ],
+                [
+                    "aria/Description"
+                ]
+            ],
+            "offsetY": 32.699981689453125,
+            "offsetX": 20.600006103515625
+        },
+        {
+            "type": "change",
+            "value": "test",
+            "selectors": [
+                [
+                    "#tagTextArea"
+                ],
+                [
+                    "xpath///*[@id=\"tagTextArea\"]"
+                ],
+                [
+                    "pierce/#tagTextArea"
+                ],
+                [
+                    "aria/Description"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id={}]/button[1]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "aria/ Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 20.100006103515625,
+            "offsetX": 167.60000610351562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "tr:nth-of-type(4) > td:nth-of-type(4) svg"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/table/tbody/tr[4]/td[4]/a/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(4) > td:nth-of-type(4) svg"
+                ]
+            ],
+            "offsetY": 13.25,
+            "offsetX": 4.8125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#itemTextField"
+                ],
+                [
+                    "xpath///*[@id=\"itemTextField\"]"
+                ],
+                [
+                    "pierce/#itemTextField"
+                ],
+                [
+                    "aria/Title"
+                ]
+            ],
+            "offsetY": 18.899993896484375,
+            "offsetX": 107.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "Test2",
+            "selectors": [
+                [
+                    "#itemTextField"
+                ],
+                [
+                    "xpath///*[@id=\"itemTextField\"]"
+                ],
+                [
+                    "pierce/#itemTextField"
+                ],
+                [
+                    "aria/Title"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#statusTextField"
+                ],
+                [
+                    "xpath///*[@id=\"statusTextField\"]"
+                ],
+                [
+                    "pierce/#statusTextField"
+                ],
+                [
+                    "aria/Imagen"
+                ]
+            ],
+            "offsetY": 22.29998779296875,
+            "offsetX": 69.60000610351562
+        },
+        {
+            "type": "change",
+            "value": "Test2",
+            "selectors": [
+                [
+                    "#statusTextField"
+                ],
+                [
+                    "xpath///*[@id=\"statusTextField\"]"
+                ],
+                [
+                    "pierce/#statusTextField"
+                ],
+                [
+                    "aria/Imagen"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#tagTextArea"
+                ],
+                [
+                    "xpath///*[@id=\"tagTextArea\"]"
+                ],
+                [
+                    "pierce/#tagTextArea"
+                ],
+                [
+                    "aria/Description"
+                ],
+                [
+                    "text/test"
+                ]
+            ],
+            "offsetY": 17.699981689453125,
+            "offsetX": 63.600006103515625
+        },
+        {
+            "type": "change",
+            "value": "test2",
+            "selectors": [
+                [
+                    "#tagTextArea"
+                ],
+                [
+                    "xpath///*[@id=\"tagTextArea\"]"
+                ],
+                [
+                    "pierce/#tagTextArea"
+                ],
+                [
+                    "aria/Description"
+                ],
+                [
+                    "text/test"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id={}]/button[1]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "aria/ Submit"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 23.100006103515625,
+            "offsetX": 167.60000610351562
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "tr:nth-of-type(4) > td:nth-of-type(5) svg"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/table/tbody/tr[4]/td[5]/button/svg"
+                ],
+                [
+                    "pierce/tr:nth-of-type(4) > td:nth-of-type(5) svg"
+                ]
+            ],
+            "offsetY": 7.25,
+            "offsetX": 7.9124755859375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "html"
+                ],
+                [
+                    "xpath//html"
+                ],
+                [
+                    "pierce/html"
+                ]
+            ],
+            "offsetY": 589,
+            "offsetX": 594
+        }
+    ]
+}
