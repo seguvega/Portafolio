@@ -1,4 +1,3 @@
-
 class UserModel
 {
     constructor(uid, displayName, email){
